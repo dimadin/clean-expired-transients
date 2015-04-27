@@ -1,0 +1,22 @@
+{
+	"name": "dimadin/clean-expired-transients",
+	"description": "Safest and simplest WordPress transients garbage collector.",
+	"keywords": ["wordpress"],
+	"type": "wordpress-plugin",
+	"homepage": "http://blog.milandinic.com/wordpress/plugins/clean-expired-transients/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Milan Dinić",
+			"email": "milan@srpski.biz",
+			"homepage": "http://blog.milandinic.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/dimadin/clean-expired-transients/issues",
+		"source": "https://github.com/dimadin/clean-expired-transients"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
