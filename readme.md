@@ -11,4 +11,4 @@ By default, it will check for expired transients once daily, though you can call
 
 Clean Expired Transients is a very lightweight, it has no settings, just activate it and it works immediately.
 
-Note that it can be used by developers in their project in any place, it doesn't requires activation and it's safe to use since it checks is there existing installation, just include it.
+Note that it can be used by developers in their project in any place, it doesn't require activation and it's safe to use since it checks is there existing installation, just include it.
