@@ -67,7 +67,7 @@ class Clean_Expired_Transients {
 		// Load translations
 		load_plugin_textdomain( 'clean-expired-transients', false, dirname( $basename ) . '/languages' );
 
-		// Add new link
+		// Add new links
 		$links['donate']   = '<a href="http://blog.milandinic.com/donate/">' . __( 'Donate', 'clean-expired-transients' ) . '</a>';
 		$links['wpdev']    = '<a href="http://blog.milandinic.com/wordpress/custom-development/">' . __( 'WordPress Developer', 'clean-expired-transients' ) . '</a>';
 		$links['premium']  = '<strong><a href="https://shop.milandinic.com/downloads/clean-expired-transients-plus/">' . __( 'Premium Version', 'clean-expired-transients' ) . '</a></strong>';
