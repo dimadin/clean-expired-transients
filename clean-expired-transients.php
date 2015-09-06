@@ -134,6 +134,13 @@ class Clean_Expired_Transients {
 		foreach ( $transients as $transient ) {
 			get_site_transient( $transient );
 		}
+
+		/**
+		 * Fires after cleaning is finished.
+		 *
+		 * @since 1.1
+		 */
+		do_action( 'clean_expired_transients_cleaned' );
 	}
 }
 
