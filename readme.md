@@ -1,5 +1,7 @@
 Clean Expired Transients
-===================
+========================
+
+[![Build Status](https://api.travis-ci.org/dimadin/clean-expired-transients.png?branch=master)](https://travis-ci.org/dimadin/clean-expired-transients)
 
 [Plugin homepage](http://blog.milandinic.com/wordpress/plugins/clean-expired-transients/) | [Plugin author](http://blog.milandinic.com/) | [Donate](http://blog.milandinic.com/donate/)
 
