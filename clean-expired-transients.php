@@ -39,38 +39,21 @@ class Clean_Expired_Transients {
 	 */
 	public function __construct() {
 		add_action( 'wp_scheduled_delete', array( $this, 'clean' ) );
-
-		// Register plugins action links filter
-		add_filter( 'plugin_action_links',               array( $this, 'action_links' ), 10, 2 );
-		add_filter( 'network_admin_plugin_action_links', array( $this, 'action_links' ), 10, 2 );
 	}
 
 	/**
 	 * Add action links to plugins page.
 	 *
 	 * @since 1.1
+	 * @deprecated 1.2
 	 * @access public
 	 *
-	 * @param array  $links       Existing plugin's action links.
+	 * @param array  $links       Plugin's action links.
 	 * @param string $plugin_file Path to the plugin file.
-	 * @return array $links New plugin's action links.
+	 * @return array $links Plugin's action links.
 	 */
 	public function action_links( $links, $plugin_file ) {
-		// Set basename
-		$basename = plugin_basename( __FILE__ );
-
-		// Check if it is for this plugin
-		if ( $basename != $plugin_file ) {
-			return $links;
-		}
-
-		// Load translations
-		load_plugin_textdomain( 'clean-expired-transients', false, dirname( $basename ) . '/languages' );
-
-		// Add new links
-		$links['donate']   = '<a href="http://blog.milandinic.com/donate/">' . __( 'Donate', 'clean-expired-transients' ) . '</a>';
-		$links['wpdev']    = '<a href="http://blog.milandinic.com/wordpress/custom-development/">' . __( 'WordPress Developer', 'clean-expired-transients' ) . '</a>';
-		$links['premium']  = '<strong><a href="https://shop.milandinic.com/downloads/clean-expired-transients-plus/">' . __( 'Premium Version', 'clean-expired-transients' ) . '</a></strong>';
+		_deprecated_function( __METHOD__, '1.2' );
 
 		return $links;
 	}
