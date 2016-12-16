@@ -33,7 +33,7 @@ if ( ! class_exists( 'Clean_Expired_Transients' ) ) :
 class Clean_Expired_Transients {
 	/**
 	 * Hook to daily cron action.
-	 * 
+	 *
 	 * @since 1.0
 	 * @access public
 	 */
@@ -60,7 +60,7 @@ class Clean_Expired_Transients {
 
 	/**
 	 * Clean all expired transients from database older than minute.
-	 * 
+	 *
 	 * @since 1.0
 	 * @access public
 	 */
