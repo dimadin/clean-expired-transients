@@ -118,6 +118,11 @@ class Clean_Expired_Transients {
 			get_site_transient( $transient );
 		}
 
+		// Clean temporaries
+		if ( is_callable( 'WP_Temporary::clean' ) ) {
+			WP_Temporary::clean();
+		}
+
 		/**
 		 * Fires after cleaning is finished.
 		 *
