@@ -15,7 +15,7 @@
  * Description: Safest and simplest transients garbage collector.
  * Author:      Milan Dinić
  * Author URI:  http://blog.milandinic.com/
- * Version:     1.1
+ * Version:     1.2
  * Text Domain: clean-expired-transients
  * Domain Path: /languages/
  * License:     GPL
