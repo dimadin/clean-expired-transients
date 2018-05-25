@@ -11,10 +11,10 @@
 
 /**
  * Plugin Name: Clean Expired Transients
- * Plugin URI:  http://blog.milandinic.com/wordpress/plugins/clean-expired-transients/
+ * Plugin URI:  https://milandinic.com/wordpress/plugins/clean-expired-transients/
  * Description: Safest and simplest transients garbage collector.
  * Author:      Milan Dinić
- * Author URI:  http://blog.milandinic.com/
+ * Author URI:  https://milandinic.com/
  * Version:     1.2
  * Text Domain: clean-expired-transients
  * Domain Path: /languages/
@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 if ( ! class_exists( 'Clean_Expired_Transients' ) ) :
 /**
  * Clean expired transients.
- * 
+ *
  * @since 1.0
  */
 class Clean_Expired_Transients {
